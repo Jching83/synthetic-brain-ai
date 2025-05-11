@@ -1,4 +1,4 @@
-/* Enhanced Styles for Synthetic Brain AI Website */
+/* Enhanced Visual Style for Synthetic Brain AI Website */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -39,6 +39,7 @@ nav a {
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 nav a:hover {
@@ -49,27 +50,38 @@ nav a:hover {
 section {
     padding: 60px 20px;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 900px;
     background-color: #1e1e1e;
-    border-radius: 10px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 h2 {
     color: #00aaff;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
 }
 
 button {
     background-color: #00aaff;
     color: #fff;
     border: none;
-    padding: 12px 24px;
-    margin: 10px 0;
+    padding: 14px 28px;
+    margin: 20px 0;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -96,4 +108,25 @@ button a {
 
 button a:hover {
     color: #e0e0e0;
+}
+
+/* Enhance Community Section */
+#community {
+    background-color: #2a2a2a;
+    border-left: 4px solid #00aaff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Info Styling */
+#contact a {
+    color: #00aaff;
+    text-decoration: underline;
+}
+
+#contact a:hover {
+    color: #0077cc;
 }
